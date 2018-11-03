@@ -1,0 +1,32 @@
+package: .
+import:
+- package: github.com/HouzuoGuo/tiedot
+  version: ^3.4.0
+  subpackages:
+  - db
+- package: github.com/rwcarlsen/goexif
+  subpackages:
+  - exif
+  - tiff
+- package: github.com/s-rah/onionscan
+  subpackages:
+  - config
+  - crawldb
+  - deanonymization
+  - model
+  - onionscan
+  - onionscan/steps
+  - protocol
+  - report
+  - spider
+  - utils
+  - webui
+- package: golang.org/x/crypto
+  subpackages:
+  - openpgp
+  - ssh
+  - ssh/terminal
+- package: golang.org/x/net
+  subpackages:
+  - html
+  - proxy
